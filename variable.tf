@@ -25,3 +25,19 @@ variable "web_server_name" {
 variable "environment" {
     type = string
 }
+
+variable "web_server_count" {
+    type = string
+}
+
+variable "web_server_env_count" {
+    type = string
+}
+
+variable "web_server_subnet"{
+    type = map
+}
+
+variable "terraform_script_version" {
+    type = string
+}
